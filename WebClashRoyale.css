@@ -1,0 +1,204 @@
+body {
+    background-image: url("ImágenesWebCR/FondoCR.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    position: sticky;
+    top: 0;
+    margin-bottom: 20px;
+}
+nav h1{
+    text-shadow: none;
+}
+p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+tbody tr{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+tbody tr:nth-of-type(odd){
+    background-color: rgba(158, 153, 153, 0.8)!important;
+}
+td{
+    font-weight: bold;
+}
+h1{
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+hr{
+    border-top: 5px solid #dac820;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+span.badge.bg-danger.text-light {
+    position: absolute;
+    top: 52px;
+    left: 344px;
+    transform: rotate(-10deg);
+}
+.titulo-web{
+    font-size: 22px;
+    font-weight: bold;
+}
+.enlace-titulo-web:hover{
+    text-decoration: none;
+}
+.logo-nav{
+    width: 110px;
+}
+.card{
+    background-color: transparent;
+}
+.card .col-md-8{
+    background-color: rgba(255,255,255,0.8);
+}
+.card-title{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.titulo-tipo-carta{
+    margin: 10px 0 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+div.card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+img.card-img{
+    border: #dac820 8px solid;
+    border-radius: 10px;
+}
+.btn-tipos{
+    position: sticky;
+    margin-top: 30px;
+    top: 100px;
+}
+.menu-sin-seleccionar,.menu-sin-seleccionar:hover{
+    color:rgba(255, 255, 255, 0.8);
+}
+.menu-sin-seleccionar.active{
+    color: black!important;
+}
+.subtitulo-tipo-carta{
+    background-color: #3a4550;
+    color: whitesmoke;
+}
+.imagen-carta{
+    width: 70px;
+}
+.intro-mazos {
+    background-color: rgba(255,255,255,0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+.tabla-mazos{
+    background-image: url("ImágenesWebCR/FondoMadera.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: gold 3px solid;
+}
+.tabla-mazos tbody tr{
+    background-color: transparent!important;
+}
+.exp-mazo {
+    background-color: rgba(255,255,255,0.8);
+    padding: 15px;
+    border-radius: 10px;
+}
+.tabla-mazos td{
+    padding: 10px;
+}
+.titulo-ejemplo-mazos{
+    font-size: 20px;
+    font-weight: bold;
+}
+.carta-mazo{
+    width: 60px;
+}
+.video-mazo{
+    max-width: 720px;
+    width: 100%;
+}
+.fa-app-store{
+    font-size: 22px;
+}
+#btn-subir{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    bottom: 150px;
+    margin-right: 20px;
+    float: right;
+}
+#btn-subir:hover{
+    text-decoration: none;
+}
+#btn-subir:hover .fa-chevron-up{
+    transform: rotate(0deg);
+    transition-duration: .5s;
+}
+.fa-chevron-up {
+    font-size: 30px;
+    transform: rotate(180deg);
+    transition-duration: .5s;
+}
+footer{
+    background-color: black;
+}
+.footer-content{
+    text-align: center;
+}
+.fab::before{
+    position: relative;
+    top: 5px;
+}
+.fa-twitter{
+    color: #00acee;
+}
+.fa-facebook-f{
+    color: #3b5998;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+.fa-instagram{
+    color: #dd2a7b;
+}
+
+@media (max-width: 717px) {
+    span.badge.bg-danger.text-light {
+        top: 32px;
+        left: 291px;
+    }
+}
+@media (max-width: 652px) {
+    span.badge.bg-danger.text-light {
+        display: none
+    }
+}
+@media (max-width: 631px) {
+    .titulo-web {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .titulo-web {
+      margin: 0!important;
+    }
+}
